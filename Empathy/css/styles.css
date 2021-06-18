@@ -607,3 +607,254 @@ footer .copyright span {
   float:right;
   font-weight: normal;
 }
+
+@media all and (max-width: 1300px) 
+{
+  header .wrapper,
+  main .about_wrapper,
+  main .how-it-works_wrapper,
+  main .app-view_wrapper,
+  main .app-carousel,
+  main .security,
+  main .review-wrapper,
+  main .companies-wrapper,
+  main .trials,
+  main .free-trial-wrapper,
+  footer {
+    width: 960px;
+  }
+  main .about_wrapper p {
+    width: 488px;
+  }
+  main .img_family {
+    left: 470px;
+  }
+  main .img_trees {
+    right: 20px;
+  }
+  main .learn-more {
+    width: 960px;
+  }
+  main .companies-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  main .companies-wrapper .company {
+    margin-bottom: 30px;
+  }
+  main .trials {
+    margin: -162px auto 0 auto;
+    padding: 80px 0px;
+  }
+  footer .nav-resourse {
+    left: 220px;
+  }
+  footer .social-media {
+    left: 440px;
+  }
+  footer .downloads p {
+    width: 538px;
+    margin-right: 157px;
+  }
+}
+
+@media all and (max-width: 1000px) 
+{
+  header .wrapper,
+  main .about_wrapper,
+  main .how-it-works_wrapper,
+  main .app-view_wrapper,
+  main .app-carousel,
+  main .security,
+  main .review-wrapper,
+  main .companies-wrapper,
+  main .trials,
+  main .free-trial-wrapper,
+  footer {
+    width: 320px;
+  }
+  header .wrapper {
+    flex-wrap: wrap;
+  }
+  header nav {
+    padding-top: 0;
+  }
+  header nav a:nth-of-type(2), header nav a:nth-of-type(4) {
+    margin: 0 28px;
+  }
+  main .about_wrapper {
+    padding: 60px 0 510px 0;
+  }
+  main .about h1,
+  main .about_wrapper p {
+    width: 320px;
+  }
+  main .about_wrapper form .input_wrapper, main .free-trial form .input_wrapper {
+    width: 320px;
+  }
+  main .about_wrapper form .button, main .free-trial form .button, footer .social-media .button {
+    width: 130px;
+    margin-left: -50px;
+  }
+  #phone_number {
+    margin-left: 10px;
+  }
+  main .img_family {
+    left: -45px;
+    top: 572px;
+  }
+  main .img_trees {
+    right: 0px;
+    top: 765px;
+  }
+  main .learn-more {
+    width: 470px;
+    height: 390px;
+    padding-top: 60px;
+  }
+  main .learn-more p, main .security p {
+    width: 320px;
+  }
+  main .how-it-works {
+    margin-top: -260px;
+    padding-top: 260px;
+  }
+  main .how-it-works_wrapper .list {
+    height: auto;
+  }
+  main .how-it-works_wrapper .how-it-works_img {
+    top: 610px;
+    left: -200px;
+  }
+  main .app-view {
+    overflow: hidden;
+  }
+  main .app-flex {
+    display: block;
+    text-align: left;
+  }
+  main .app-text {
+    padding-top: 100px;
+    margin-bottom: 60px;
+  }
+  main .app-text, main .app-image {
+    width: auto;
+  }
+  main .app-image img:nth-of-type(1) {
+    position: relative;
+    left: -140px;
+  }
+  main .app-flex:nth-of-type(1) .app-screen {
+    left: 55px;
+  }
+  main .app-flex:nth-of-type(2) .app-screen {
+    left: -114px;
+  }
+  main .app-flex:nth-of-type(3) .app-screen {
+    left: 48px;
+  }
+  main .app-flex:nth-of-type(4) .app-screen {
+    left: 48px;
+  }
+  main .app-flex:nth-of-type(5) .app-screen {
+    left: 78px;
+  }
+  main .app-view_wrapper {
+    margin-bottom: 0px;
+  }
+  main .app-carousel .carousel-wrapper {
+    width: 320px;
+  }
+  main .carousel-item img {
+   left: 107px;
+  }
+  main .carousel-track,
+  main .app-carousel h4 {
+    margin-bottom: 60px;
+  }
+  main .app-carousel {
+    padding-bottom: 80px;
+  }
+  main .security {
+    width: 470px;
+    height: 360px;
+    padding-top: 60px;
+  }
+  main .review {
+    margin-top: -262px;
+    padding-top: 190px;
+    padding-bottom: 75px;
+  }
+  main .review-wrapper p:nth-of-type(2) {
+    width: auto;
+  }
+  main .companies {
+    padding-top: 80px;
+  }
+  main .trials {
+    width: 470px;
+    display: block;
+    padding: 60px 0px;
+  }
+  main .trial {
+    width: 320px;
+    margin: 0 auto 30px auto;
+  }
+  main .trial h3 {
+    margin: auto;
+  }
+  main .free-trial {
+    margin-top: -170px;
+  }
+  footer .nav-company, 
+  footer .nav-resourse {
+    top: -490px;
+  }
+  footer .nav-resourse {
+    left: 190px;
+  }
+  footer .social-media {
+    left: 60px;
+    top: -120px;
+  }
+  footer .social-media a.button {
+    left: 24px;
+  }
+  footer .social-media a:not(.button) {
+    position: relative;
+    top: 30px;
+    left: -24px;
+  }
+  footer .downloads {
+    margin-top: 550px;
+  }
+  footer .downloads p {
+    width: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  footer .downloads a {
+    margin-left: 14px;
+  }
+  footer .copyright span {
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 565px) {
+  body {
+    overflow-x: hidden;
+  }
+  main .learn-more,
+  main .security,
+  main .trials {
+    width: 340px;
+  }
+}
+@media all and (max-width: 360px) {
+  main .learn-more,
+  main .security,
+  main .trials {
+    width: 320px;
+  }
+}
