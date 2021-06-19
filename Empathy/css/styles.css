@@ -842,7 +842,7 @@ footer .copyright span {
 }
 
 @media all and (max-width: 565px) {
-  body {
+  main {
     overflow-x: hidden;
   }
   main .learn-more,
